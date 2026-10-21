@@ -2,7 +2,7 @@
 
 **Course:** 23CSE301 Machine Learning — Capstone Project  
 **Academic Year:** 2026–2027  
-**Scope:** Review 1 (Full Regression Track + Classification Part A) & Review 2 (Classification Part B + Full Clustering Track + Bonus Web Application)
+**Scope:** Review 1 (Full Regression Track + Classification Part A) & Review 2 (Classification Part B+Full Clustering Track+Bonus Web Application)
 
 ---
 
