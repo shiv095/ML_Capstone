@@ -101,12 +101,8 @@ Retail_ML_Capstone/
 │   ├── online_retail_II.xlsx               # Raw retail transactional dataset (Classification & Clustering)
 │   └── hour.csv                            # Bike sharing hourly dataset (Regression Track)
 ├── notebooks/
-│   ├── 1_EDA.ipynb                         # Full Classification Track (EDA, Part A, Part B, 10 Models, Tuning)
-│   ├── 2_regression_track.ipynb            # Full Regression Track (10 Models, Tuning, Residuals)
-│   ├── 3_clustering_track.ipynb            # Full Clustering Track (K-Means, Hierarchical, PCA, t-SNE, Personas)
-│   ├── classification.ipynb                # Canonical alias of 1_EDA.ipynb
-│   ├── regression.ipynb                    # Canonical alias of 2_regression_track.ipynb
-│   └── clustering.ipynb                    # Canonical alias of 3_clustering_track.ipynb
+│   ├── 1_EDA.ipynb                         # Master Retail ML Capstone (EDA, Classification Part A & B, Full Clustering Track)
+│   └── 2_regression_track.ipynb            # Bike Sharing Regression Track (10 Models, Tuning, Residuals)
 ├── models/
 │   ├── best_classification_pipeline.joblib # Serialized production Random Forest pipeline
 │   └── best_clustering_pipeline.joblib     # Serialized K-Means scaler + model + PCA pipeline
@@ -158,10 +154,9 @@ Start Jupyter Lab / Notebook:
 ```bash
 jupyter lab
 ```
-Run any notebook top-to-bottom:
-- `notebooks/1_EDA.ipynb` (or `notebooks/classification.ipynb`): Classification Track Part A & Part B
-- `notebooks/2_regression_track.ipynb` (or `notebooks/regression.ipynb`): Regression Track
-- `notebooks/3_clustering_track.ipynb` (or `notebooks/clustering.ipynb`): Clustering Track
+Run the notebooks top-to-bottom:
+- `notebooks/1_EDA.ipynb`: Master Retail ML Capstone (EDA, Classification Track Part A & Part B, and Full Clustering Track)
+- `notebooks/2_regression_track.ipynb`: Bike Sharing Regression Track (10 Models, Tuning, Residuals)
 
 ### 4.3 Launching the Interactive GUI (Bonus Track)
 To run the Streamlit web application locally:
